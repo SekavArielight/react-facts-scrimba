@@ -1,19 +1,26 @@
-import React from 'react'
+import React from "react";
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <>
-      <img src="../public/react-logo.png" alt="React Logo" width={40} height={40}/>
-      <h1 className="header">Fun Facts About React</h1>
-      <ul>
-        <li>Was first release in 2013</li>
-        <li>Was originally created by Jordan Walke</li>
-        <li>Has well over 200K stars on GitHub</li>
-        <li>Is maintained by Meta</li>
-        <li>Powers thousands of enterprise apps, including mobile apps</li>
-      </ul>
-    </>
-  )
-}
+      <Header/>
+      <main>
+        <h1 className="header">Fun Facts About React</h1>
+        <ul>
+          <li>Was first release in 2013</li>
+          <li>Was originally created by Jordan Walke</li>
+          <li>Has well over 200K stars on GitHub</li>
+          <li>Is maintained by Meta</li>
+          <li>Powers thousands of enterprise apps, including mobile apps</li>
+        </ul>
+      </main>
 
-export default App
+      <footer>
+        <small>© 20xx Sekav development. All rights reserved.</small>
+      </footer>
+    </>
+  );
+};
+
+export default App;
