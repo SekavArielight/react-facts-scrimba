@@ -4,7 +4,7 @@ const MainBody = () => {
   return (
     <main>
       <h1 className="header">Fun Facts About React</h1>
-      <ul>
+      <ul className="facts-list">
         <li>Was first release in 2013</li>
         <li>Was originally created by Jordan Walke</li>
         <li>Has well over 200K stars on GitHub</li>
